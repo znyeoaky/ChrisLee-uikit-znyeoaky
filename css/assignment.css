@@ -1,0 +1,201 @@
+body {
+  height: auto;
+  background-color: #ffebcd;
+}
+.icon {
+  filter: drop-shadow(2px 2px 2px rgb(237, 132, 4));
+}
+.header-txt {
+  margin-left: 10px;
+  font-size: 60px;
+  font-family: "Permanent Marker", cursive;
+  color: rgb(247, 245, 243);
+  text-shadow: 4px 4px 4px rgb(237, 132, 4);
+}
+.header-txt:hover {
+  text-decoration: none;
+}
+li a {
+  font-size: large !important;
+  min-height: 40px !important;
+}
+.editableregion {
+  width: 90%;
+  max-width: 1920px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 5px 25px;
+  background-color: white;
+}
+.section1 {
+  width: 85%;
+  margin: auto;
+  height: auto;
+}
+.section2 {
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+  text-align: center;
+  border: #f2f2f2;
+  border-width: 50px;
+  border-style: solid;
+  box-sizing: border-box;
+}
+.title {
+  padding-top: 15px;
+  height: auto;
+  text-align: center;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: rgb(228, 126, 10);
+}
+.title4 {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-size: 40px;
+  text-shadow: 4px 4px #f7d198;
+  color: rgb(222, 134, 34);
+}
+.section-imgleft {
+  width: auto;
+  max-width: 400px !important;
+  float: left;
+  margin: 40px 40px 10px 40px;
+  vertical-align: middle;
+}
+.section-imgright {
+  width: auto;
+  max-width: 500px !important;
+  margin: 40px 40px 10px 40px;
+  float: right;
+  vertical-align: middle;
+}
+article p::first-letter {
+  font-family: "Zhi Mang Xing", cursive;
+  margin-right: 3px;
+  font-size: 35px;
+  color: rgb(228, 126, 10);
+}
+.text-lead {
+  margin: auto 30px;
+  padding-left: 4%;
+  padding-right: 4%;
+  font-size: large !important;
+  font-family: "Eczar", serif;
+  color: rgb(117, 70, 16) !important;
+}
+.font-cn {
+  font-family: "Zhi Mang Xing", cursive;
+}
+.ul-list {
+  margin: auto 15%;
+  color: #666;
+  font-family: "Cinzel", serif;
+  background-color: #f8f8f8;
+}
+li {
+  font-family: "Cinzel", serif;
+  font-style: oblique;
+}
+.album-img {
+  width: 300px;
+  min-width: 150px;
+  height: auto;
+  float: right;
+  text-align: center;
+}
+
+video {
+  width: 640px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.video-link {
+  width: auto;
+  height: auto;
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.video-icon {
+  width: 700px;
+  text-align: center;
+  padding-top: 50px;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+}
+.video-iconf {
+  width: 40px;
+  transform: rotate(20deg);
+  margin: 10px;
+}
+.video-icont {
+  width: 40px;
+  transform: rotate(-20deg);
+  margin: 10px;
+}
+.video-iconi {
+  width: 40px;
+  transform: rotate(12deg);
+  border-radius: 22%;
+  margin: 10px;
+}
+footer {
+  width: 90%;
+  max-width: 1920px;
+  margin: auto;
+  border-width: 5px;
+  border-style: dashed none none none;
+  border-color: #fba92c;
+}
+.footer1 {
+  width: 100%;
+  height: auto;
+}
+.fa {
+  width: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: medium;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 15%;
+  filter: drop-shadow(2px 2px 3px rgb(185, 184, 184));
+}
+.small {
+  width: 25px;
+  margin: 10px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-weibo {
+  background: #ffea00;
+  color: rgb(238, 69, 8);
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-instagram {
+  background: linear-gradient(
+    to top right,
+    #eeff41,
+    #ef5350,
+    #f48fb1,
+    #7e57c2,
+    #2f5df4
+  );
+  color: white;
+}
